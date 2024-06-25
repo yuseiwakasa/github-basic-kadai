@@ -1,0 +1,31 @@
+PS C:\Users\wakas> cd C:\Users\wakas\Desktop\terakoya
+PS C:\Users\wakas\Desktop\terakoya> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\wakas\Desktop\terakoya
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/06/25     18:16                git_challenge
+
+
+PS C:\Users\wakas\Desktop\terakoya> cd C:\Users\wakas\Desktop\terakoya\git_challenge
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git init
+Initialized empty Git repository in C:/Users/wakas/Desktop/terakoya/git_challenge/.git/
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git add hello_world
+fatal: pathspec 'hello_world' did not match any files
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git add hello_world.txt
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git add hello_world.txt
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git commit -m"hello_world.txtを追加"
+[main (root-commit) 52c1ba2] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git add hello_world.txt  
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git commit -m"日本語訳を追加"
+[main 5289592] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> git log --oneline
+5289592 (HEAD -> main) 日本語訳を追加
+52c1ba2 hello_world.txtを追加
+PS C:\Users\wakas\Desktop\terakoya\git_challenge> 
